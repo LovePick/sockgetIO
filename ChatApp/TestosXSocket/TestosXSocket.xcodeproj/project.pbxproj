@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8AF8E622D84EA5003A0145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF8E522D84EA5003A0145 /* AppDelegate.swift */; };
+		AC8AF8E822D84EA5003A0145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF8E722D84EA5003A0145 /* ViewController.swift */; };
+		AC8AF8EA22D84EA6003A0145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8AF8E922D84EA6003A0145 /* Assets.xcassets */; };
+		AC8AF8ED22D84EA6003A0145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8AF8EB22D84EA6003A0145 /* Main.storyboard */; };
+		AC8AF8F922D84EA6003A0145 /* TestosXSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF8F822D84EA6003A0145 /* TestosXSocketTests.swift */; };
+		AC8AF90422D84EA6003A0145 /* TestosXSocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8AF90322D84EA6003A0145 /* TestosXSocketUITests.swift */; };
+		C65A07816EA6B7E1776E889A /* Pods_TestosXSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE02F8843FEDC5709D4098DA /* Pods_TestosXSocket.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8AF8F522D84EA6003A0145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8AF8DA22D84EA5003A0145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8AF8E122D84EA5003A0145;
+			remoteInfo = TestosXSocket;
+		};
+		AC8AF90022D84EA6003A0145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8AF8DA22D84EA5003A0145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8AF8E122D84EA5003A0145;
+			remoteInfo = TestosXSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9741ABA19D6653D8B3E1D2D9 /* Pods-TestosXSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestosXSocket.release.xcconfig"; path = "Target Support Files/Pods-TestosXSocket/Pods-TestosXSocket.release.xcconfig"; sourceTree = "<group>"; };
+		AC8AF8E222D84EA5003A0145 /* TestosXSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestosXSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8AF8E522D84EA5003A0145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC8AF8E722D84EA5003A0145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC8AF8E922D84EA6003A0145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC8AF8EC22D84EA6003A0145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC8AF8EE22D84EA6003A0145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8AF8EF22D84EA6003A0145 /* TestosXSocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestosXSocket.entitlements; sourceTree = "<group>"; };
+		AC8AF8F422D84EA6003A0145 /* TestosXSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestosXSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8AF8F822D84EA6003A0145 /* TestosXSocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestosXSocketTests.swift; sourceTree = "<group>"; };
+		AC8AF8FA22D84EA6003A0145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8AF8FF22D84EA6003A0145 /* TestosXSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestosXSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8AF90322D84EA6003A0145 /* TestosXSocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestosXSocketUITests.swift; sourceTree = "<group>"; };
+		AC8AF90522D84EA6003A0145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE02F8843FEDC5709D4098DA /* Pods_TestosXSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestosXSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8259BAB22637FB333DE6937 /* Pods-TestosXSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestosXSocket.debug.xcconfig"; path = "Target Support Files/Pods-TestosXSocket/Pods-TestosXSocket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8AF8DF22D84EA5003A0145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65A07816EA6B7E1776E889A /* Pods_TestosXSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8AF8F122D84EA6003A0145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8AF8FC22D84EA6003A0145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D2B51376A6F5C3AB2E0EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE02F8843FEDC5709D4098DA /* Pods_TestosXSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		608FA45FDF213F0F36DEFC32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8259BAB22637FB333DE6937 /* Pods-TestosXSocket.debug.xcconfig */,
+				9741ABA19D6653D8B3E1D2D9 /* Pods-TestosXSocket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC8AF8D922D84EA5003A0145 = {
+			isa = PBXGroup;
+			children = (
+				AC8AF8E422D84EA5003A0145 /* TestosXSocket */,
+				AC8AF8F722D84EA6003A0145 /* TestosXSocketTests */,
+				AC8AF90222D84EA6003A0145 /* TestosXSocketUITests */,
+				AC8AF8E322D84EA5003A0145 /* Products */,
+				608FA45FDF213F0F36DEFC32 /* Pods */,
+				05D2B51376A6F5C3AB2E0EFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8AF8E322D84EA5003A0145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AF8E222D84EA5003A0145 /* TestosXSocket.app */,
+				AC8AF8F422D84EA6003A0145 /* TestosXSocketTests.xctest */,
+				AC8AF8FF22D84EA6003A0145 /* TestosXSocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8AF8E422D84EA5003A0145 /* TestosXSocket */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AF8E522D84EA5003A0145 /* AppDelegate.swift */,
+				AC8AF8E722D84EA5003A0145 /* ViewController.swift */,
+				AC8AF8E922D84EA6003A0145 /* Assets.xcassets */,
+				AC8AF8EB22D84EA6003A0145 /* Main.storyboard */,
+				AC8AF8EE22D84EA6003A0145 /* Info.plist */,
+				AC8AF8EF22D84EA6003A0145 /* TestosXSocket.entitlements */,
+			);
+			path = TestosXSocket;
+			sourceTree = "<group>";
+		};
+		AC8AF8F722D84EA6003A0145 /* TestosXSocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AF8F822D84EA6003A0145 /* TestosXSocketTests.swift */,
+				AC8AF8FA22D84EA6003A0145 /* Info.plist */,
+			);
+			path = TestosXSocketTests;
+			sourceTree = "<group>";
+		};
+		AC8AF90222D84EA6003A0145 /* TestosXSocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8AF90322D84EA6003A0145 /* TestosXSocketUITests.swift */,
+				AC8AF90522D84EA6003A0145 /* Info.plist */,
+			);
+			path = TestosXSocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8AF8E122D84EA5003A0145 /* TestosXSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8AF90822D84EA6003A0145 /* Build configuration list for PBXNativeTarget "TestosXSocket" */;
+			buildPhases = (
+				273ECDE9A21072D221D554BF /* [CP] Check Pods Manifest.lock */,
+				AC8AF8DE22D84EA5003A0145 /* Sources */,
+				AC8AF8DF22D84EA5003A0145 /* Frameworks */,
+				AC8AF8E022D84EA5003A0145 /* Resources */,
+				0D96F183BD03FB352CBF8B0B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestosXSocket;
+			productName = TestosXSocket;
+			productReference = AC8AF8E222D84EA5003A0145 /* TestosXSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8AF8F322D84EA6003A0145 /* TestosXSocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8AF90B22D84EA6003A0145 /* Build configuration list for PBXNativeTarget "TestosXSocketTests" */;
+			buildPhases = (
+				AC8AF8F022D84EA6003A0145 /* Sources */,
+				AC8AF8F122D84EA6003A0145 /* Frameworks */,
+				AC8AF8F222D84EA6003A0145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8AF8F622D84EA6003A0145 /* PBXTargetDependency */,
+			);
+			name = TestosXSocketTests;
+			productName = TestosXSocketTests;
+			productReference = AC8AF8F422D84EA6003A0145 /* TestosXSocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC8AF8FE22D84EA6003A0145 /* TestosXSocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8AF90E22D84EA6003A0145 /* Build configuration list for PBXNativeTarget "TestosXSocketUITests" */;
+			buildPhases = (
+				AC8AF8FB22D84EA6003A0145 /* Sources */,
+				AC8AF8FC22D84EA6003A0145 /* Frameworks */,
+				AC8AF8FD22D84EA6003A0145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8AF90122D84EA6003A0145 /* PBXTargetDependency */,
+			);
+			name = TestosXSocketUITests;
+			productName = TestosXSocketUITests;
+			productReference = AC8AF8FF22D84EA6003A0145 /* TestosXSocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8AF8DA22D84EA5003A0145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = T2P;
+				TargetAttributes = {
+					AC8AF8E122D84EA5003A0145 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					AC8AF8F322D84EA6003A0145 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AC8AF8E122D84EA5003A0145;
+					};
+					AC8AF8FE22D84EA6003A0145 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AC8AF8E122D84EA5003A0145;
+					};
+				};
+			};
+			buildConfigurationList = AC8AF8DD22D84EA5003A0145 /* Build configuration list for PBXProject "TestosXSocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8AF8D922D84EA5003A0145;
+			productRefGroup = AC8AF8E322D84EA5003A0145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8AF8E122D84EA5003A0145 /* TestosXSocket */,
+				AC8AF8F322D84EA6003A0145 /* TestosXSocketTests */,
+				AC8AF8FE22D84EA6003A0145 /* TestosXSocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8AF8E022D84EA5003A0145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8AF8EA22D84EA6003A0145 /* Assets.xcassets in Resources */,
+				AC8AF8ED22D84EA6003A0145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8AF8F222D84EA6003A0145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8AF8FD22D84EA6003A0145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D96F183BD03FB352CBF8B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestosXSocket/Pods-TestosXSocket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestosXSocket/Pods-TestosXSocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		273ECDE9A21072D221D554BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestosXSocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8AF8DE22D84EA5003A0145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8AF8E822D84EA5003A0145 /* ViewController.swift in Sources */,
+				AC8AF8E622D84EA5003A0145 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8AF8F022D84EA6003A0145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8AF8F922D84EA6003A0145 /* TestosXSocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8AF8FB22D84EA6003A0145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8AF90422D84EA6003A0145 /* TestosXSocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8AF8F622D84EA6003A0145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8AF8E122D84EA5003A0145 /* TestosXSocket */;
+			targetProxy = AC8AF8F522D84EA6003A0145 /* PBXContainerItemProxy */;
+		};
+		AC8AF90122D84EA6003A0145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8AF8E122D84EA5003A0145 /* TestosXSocket */;
+			targetProxy = AC8AF90022D84EA6003A0145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC8AF8EB22D84EA6003A0145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8AF8EC22D84EA6003A0145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8AF90622D84EA6003A0145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC8AF90722D84EA6003A0145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC8AF90922D84EA6003A0145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8259BAB22637FB333DE6937 /* Pods-TestosXSocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestosXSocket/TestosXSocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4836KR52L9;
+				INFOPLIST_FILE = TestosXSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2p.TestosXSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC8AF90A22D84EA6003A0145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9741ABA19D6653D8B3E1D2D9 /* Pods-TestosXSocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestosXSocket/TestosXSocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4836KR52L9;
+				INFOPLIST_FILE = TestosXSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2p.TestosXSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC8AF90C22D84EA6003A0145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4836KR52L9;
+				INFOPLIST_FILE = TestosXSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2p.TestosXSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestosXSocket.app/Contents/MacOS/TestosXSocket";
+			};
+			name = Debug;
+		};
+		AC8AF90D22D84EA6003A0145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4836KR52L9;
+				INFOPLIST_FILE = TestosXSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2p.TestosXSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestosXSocket.app/Contents/MacOS/TestosXSocket";
+			};
+			name = Release;
+		};
+		AC8AF90F22D84EA6003A0145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4836KR52L9;
+				INFOPLIST_FILE = TestosXSocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2p.TestosXSocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TestosXSocket;
+			};
+			name = Debug;
+		};
+		AC8AF91022D84EA6003A0145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4836KR52L9;
+				INFOPLIST_FILE = TestosXSocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.t2p.TestosXSocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TestosXSocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8AF8DD22D84EA5003A0145 /* Build configuration list for PBXProject "TestosXSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8AF90622D84EA6003A0145 /* Debug */,
+				AC8AF90722D84EA6003A0145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8AF90822D84EA6003A0145 /* Build configuration list for PBXNativeTarget "TestosXSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8AF90922D84EA6003A0145 /* Debug */,
+				AC8AF90A22D84EA6003A0145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8AF90B22D84EA6003A0145 /* Build configuration list for PBXNativeTarget "TestosXSocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8AF90C22D84EA6003A0145 /* Debug */,
+				AC8AF90D22D84EA6003A0145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8AF90E22D84EA6003A0145 /* Build configuration list for PBXNativeTarget "TestosXSocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8AF90F22D84EA6003A0145 /* Debug */,
+				AC8AF91022D84EA6003A0145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8AF8DA22D84EA5003A0145 /* Project object */;
+}
